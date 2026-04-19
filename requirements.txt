@@ -1,0 +1,18 @@
+# Utilities
+numpy
+pandas
+
+# Face Recognition
+scikit-learn
+dlib-bin # For face recognition and facial landmark detection
+
+git+https://github.com/ageitgey/face_recognition_models
+setuptools<70.0.0 # To avoid compatibility issues with face_recognition_models
+
+supabase 
+bcrypt
+
+segno
+pillow
+
+streamlit
