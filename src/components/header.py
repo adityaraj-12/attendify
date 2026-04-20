@@ -12,3 +12,16 @@ def header_home():
         </div>
 
         """, unsafe_allow_html=True)
+    
+
+def header_dashboard():
+
+    logo_url = "https://res.cloudinary.com/dqygwpst9/image/upload/v1776657259/ChatGPT_Image_Apr_20_2026_08_52_40_AM_typu6z.png"
+    
+    st.markdown(f"""
+        <div style="display: flex; align-items:center; justify-content:center; gap:10px;">
+            <img src="{logo_url}" style='height:85px;'>
+            <h2 style='text-align:left; color:#5865F2'>Attendify</h2>
+        </div>
+
+        """, unsafe_allow_html=True)

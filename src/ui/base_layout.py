@@ -33,6 +33,7 @@ def style_background_deshboard():
 def style_base_layout():
 
     st.markdown("""
+                
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Outfit:wght@100..900&display=swap');
@@ -44,7 +45,7 @@ def style_base_layout():
             .block-container {
                 padding-top:1.5rem !important
             }
-            
+                
             h1{
                 font-family: 'Climate Crisis', sans-serif !important;
                 font-size: 3.5rem !important
@@ -54,8 +55,7 @@ def style_base_layout():
 
             h2{
                 font-family: 'Climate Crisis', sans-serif !important;
-                color: black !important;
-                font-size: 2.1rem !important;
+                font-size: 2rem !important;
                 line-height: 0.9 !important;
                 margin-bottom: 0rem !important;
             }

@@ -18,6 +18,7 @@ def home_screen():
         if st.button('Student Portal', type='primary', icon=':material/arrow_outward:', icon_position="right"):
             st.session_state['login_type'] = 'student'
             st.rerun()
+            
     with col2:
         st.header("I'm Teacher")
         st.image("https://res.cloudinary.com/dqygwpst9/image/upload/v1776658011/ChatGPT_Image_Apr_20_2026_09_35_55_AM_iwt0fj.png", width=132)
