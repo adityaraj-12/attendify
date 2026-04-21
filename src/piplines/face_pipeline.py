@@ -74,12 +74,12 @@ def train_classifier():
 def predict_attendance(class_image_np):
     encodings = get_face_embeddings(class_image_np)
 
-    detected_students = []
+    detected_student = {}
 
     model_data = get_trained_model()
 
     if not model_data:
-        return detected_students, [], len(encodings)
+        return detected_student, [], len(encodings)
     
     clf = model_data['clf']
     X_train = model_data['X']
@@ -100,6 +100,6 @@ def predict_attendance(class_image_np):
         resemblance_threshold = 0.6
 
         if best_match_score <= resemblance_threshold:
-            detected_students[predicted_id] = True
+            detected_student[predicted_id] = True
     
-    return detected_students, all_students, len(encodings)
+    return detected_student, all_students, len(encodings)
