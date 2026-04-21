@@ -8,6 +8,11 @@ from src.components.dialog_auto_enroll import auto_enroll_dialog
 
 def main():
     
+    st.set_page_config(
+        page_title='Attendify - Make Attendence faster using AI',
+        page_icon="https://res.cloudinary.com/dqygwpst9/image/upload/v1776657259/ChatGPT_Image_Apr_20_2026_08_52_40_AM_typu6z.png"
+    )
+
     if 'login_type' not in st.session_state:
         st.session_state['login_type'] = None
     
