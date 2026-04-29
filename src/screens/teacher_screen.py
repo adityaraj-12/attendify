@@ -19,6 +19,7 @@ from src.components.dialog_attendance_results import attendance_result_dialog
 
 from src.components.dialog_voice_attendance import voice_attendance_dialog
 
+# entry point
 def teacher_screen():
 
     style_background_deshboard()

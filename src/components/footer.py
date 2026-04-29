@@ -5,7 +5,7 @@ def footer_home():
     
     st.markdown(f"""
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; item-align:center;">
-            <p style="color:white;"> Created with ❤️ by <b>@Adityaraj</b></p>
+            <p style="color:#bacaff;"> Created with ❤️ by <b>@Adityaraj</b></p>
         </div>
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; item-align:center;">
             <p>
@@ -22,7 +22,7 @@ def footer_dashboard():
     
     st.markdown(f"""
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; item-align:center;">
-            <p style="color:black;"> Created with ❤️ by <b>@Adityaraj</b></p>
+            <p style="color:#bacaff;"> Created with ❤️ by <b>@Adityaraj</b></p>
         </div>
         <div style="margin-top:2rem; display:flex; gap:6px; justify-content:center; item-align:center;">
             <p>
